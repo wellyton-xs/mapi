@@ -1,5 +1,11 @@
 # MAPI
 
+    |  \/  | __ _ _ __ (_)
+    | |\/| |/ _` | '_ \| |
+    | |  | | (_| | |_) | |
+    |_|  |_|\__,_| .__/|_|
+                |_|
+
 Mapi is a tool that help's you to create your simple API's more faster
 
 # INSTALLATION
