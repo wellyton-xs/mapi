@@ -1,5 +1,5 @@
 {
-  "name": "mapi",
+  "name": "@wellyton-xs/mapi",
   "version": "1.0.0",
   "description": "This package is a tool that helps you to create your API",
   "main": "main.js",
@@ -21,6 +21,8 @@
   ],
   "author": "Wellyton barbosa galdino (welly) <wellyton.offcer@gmail>",
   "license": "ISC",
+  "repository": "https://github.com/wellyton-xs/mapi",
+  "homepage": "https://github.com/wellyton-xs/mapi#readme",
   "dependencies": {
     "commander": "^12.1.0",
     "figlet": "^1.7.0",
