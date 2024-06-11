@@ -1,0 +1,36 @@
+{
+  "name": "mapi",
+  "version": "1.0.0",
+  "description": "This package is a tool that helps you to create your API",
+  "main": "main.js",
+  "bin": {
+    "mapi": "./dist/main.js"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node src/main.ts",
+    "build": "npx tsc",
+    "example": "node ./dist/main.js --create my-api",
+    "start": "node dist/main.js",
+    "bar": "pnpm build && pnpm start",
+    "bare": "pnpm build && pnpm example"
+  },
+  "keywords": [
+    "cli",
+    "API creation"
+  ],
+  "author": "Wellyton barbosa galdino (welly) <wellyton.offcer@gmail>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "figlet": "^1.7.0",
+    "inquirer": "^9.2.23"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.8",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.14.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
