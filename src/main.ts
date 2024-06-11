@@ -8,7 +8,7 @@ export const program = new Command();
 console.log(figlet.textSync("Mapi"), "\n");
 
 program
-  .version("0.0.1")
+  .version("0.1.0")
   .description("generate your API with MAPI for best productivity")
   .option("-c, --create [project_name]", "create a new API project")
   .parse(process.argv);

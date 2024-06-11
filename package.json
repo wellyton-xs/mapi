@@ -1,6 +1,6 @@
 {
   "name": "@wellyton/mapi",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "This package is a tool that helps you to create your API",
   "main": "main.js",
   "bin": {
