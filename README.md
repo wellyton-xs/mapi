@@ -18,7 +18,7 @@ make sure to have pnpm installed before next steps.
 
 # HOW TO USE:
 
-is very simple, type in your terminal:
+it's very simple, type in your terminal:
 
     mapi --create <your-project-name>
 

@@ -10,6 +10,7 @@ function create_package_json(projectName: string) {
     "description": "",
     "main": "index.js",
     "scripts": {
+      "dev": "node src/index.js"
     },
     "keywords": [],
     "author": "",
