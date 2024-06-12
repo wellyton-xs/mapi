@@ -22,7 +22,7 @@
     "API creation"
   ],
   "author": "Wellyton barbosa galdino (welly) <wellyton.offcer@gmail>",
-  "license": "ISC",
+  "license": "MIT",
   "repository": "https://github.com/wellyton-xs/mapi",
   "homepage": "https://github.com/wellyton-xs/mapi#readme",
   "dependencies": {
