@@ -7,17 +7,18 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import { prepareDirectories } from "./prepareDirectories.js";
-import { prepareNodeEnv } from "./prepareNodeEnv.js";
-export function createApi(projectName) {
+import { prepare_directories } from "./prepareDirectories.js";
+import { prepare_node_env } from "./prepareNodeEnv.js";
+import { prepare_tools } from "./prepareTools.js";
+export function createApi(projectName, verbose) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            prepareDirectories(projectName);
-            prepareNodeEnv(projectName);
+            prepare_directories(projectName);
+            prepare_node_env(projectName, verbose);
+            prepare_tools(projectName);
         }
         catch (error) {
             console.error("unexpected error:", error);
         }
     });
 }
-//# sourceMappingURL=create.js.map

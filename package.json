@@ -1,6 +1,6 @@
 {
   "name": "@wellyton/mapi",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "This package is a tool that helps you to create your API",
   "main": "main.js",
   "bin": {
@@ -10,8 +10,10 @@
   "scripts": {
     "dev": "ts-node src/main.ts",
     "build": "npx tsc",
-    "example": "node ./dist/main.js --create my-api",
     "start": "node dist/main.js",
+    "check": "npx prettier . --check",
+    "write": "npx prettier . --write",
+    "example": "node ./dist/main.js --create my-api",
     "bar": "pnpm build && pnpm start",
     "bare": "pnpm build && pnpm example"
   },
@@ -32,6 +34,7 @@
     "@types/figlet": "^1.5.8",
     "@types/inquirer": "^9.0.7",
     "@types/node": "^20.14.2",
+    "prettier": "^3.3.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   }

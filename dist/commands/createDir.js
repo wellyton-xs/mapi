@@ -10,4 +10,3 @@ export function createDir(dirName, msg) {
         fs.mkdirSync(dirName);
     }
 }
-//# sourceMappingURL=createDir.js.map

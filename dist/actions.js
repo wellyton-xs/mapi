@@ -12,11 +12,10 @@ import { options, program } from "./main.js";
 export function actions() {
     return __awaiter(this, void 0, void 0, function* () {
         if (options.create) {
-            createApi(options.create);
+            createApi(options.create, options.verbose);
         }
         if (!process.argv.slice(2).length) {
             program.outputHelp();
         }
     });
 }
-//# sourceMappingURL=actions.js.map

@@ -1,5 +1,6 @@
 # MAPI
 
+     __  __             _
     |  \/  | __ _ _ __ (_)
     | |\/| |/ _` | '_ \| |
     | |  | | (_| | |_) | |
@@ -31,6 +32,10 @@ sugestions and pull requests are welcome!
 
 ## TODO:
 
-    [] better choise system and personalization
-    [] support docker
-    [] suport fastify
+    [] support for typescript
+    [] support for docker
+    [] support for fastify
+    [] ESlint pre-configuration
+    [] husky for git hooks
+    [] commit linter
+    [] lint-staged
