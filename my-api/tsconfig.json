@@ -9,6 +9,5 @@
     "esModuleInterop": true,
     "moduleResolution": "node"
   },
-  "include": ["**/*"],
-  "exclude": ["node_modules", "src/commands/templates"]
+  "include": ["**/*"]
 }

@@ -3,7 +3,7 @@ import { options, program } from "./main.js";
 
 export async function actions() {
   if (options.create) {
-    createApi(options.create, options.verbose);
+    createApi(options.verbose);
   }
 
   if (!process.argv.slice(2).length) {
