@@ -1,15 +1,15 @@
 #!/usr/bin/env node
 
 import { Command } from "commander";
-import figlet from "figlet";
 import { actions } from "./actions.js";
-
+import figlet from "figlet";
 export const program = new Command();
-
-console.log(figlet.textSync("Mapi"), "\n");
+const logo = figlet.textSync("Mapi");
+console.log(logo, "\n");
 
 program
-  .version("0.3.0")
+  .version("0.3.0-1")
+  .name("mapi")
   .description("generate your API with MAPI for best productivity")
   .option("-c, --create", "create a new API project")
   .option("-v, --verbose", "show more logs")

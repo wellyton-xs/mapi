@@ -1,11 +1,14 @@
 # CHANGELOG
 
 ## [0.3.0] 2024-05-15
+
 ### added
+
 - choose between typescript and javascript
 - choose between your favorite package manager
 
 ### fixed
+
 - mapi installs @types for libs now
 
 ## [0.2.0] 2024-05-12
